@@ -1,0 +1,86 @@
+.contact-form-back-img{
+    background-color: #0c333c !important;
+}
+
+.contact-header h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#port-theme-bttn {
+    background-color: #0c3330 !important;
+}
+
+.bg-theme-hov button, .bg-theme-hov {
+    background: none;
+    background-color: #fde49a;
+    color: #0c3330be;
+    border: none;
+    padding: 20px 0px;
+    border-radius: 5px;
+    font-weight: 900 !important;
+    transition: .6s all;
+}
+
+.bg-theme-hov button:hover, .bg-theme-hov:hover {
+    background-color: #FECA2E;
+    color: #0c3330;
+}
+
+html body .tabs .nav-tabs .nav-link.active {
+    color: #0c3330;
+    background-color: #0c3330;
+}
+
+.mrc-lgo-f img {
+    width: 150px;
+    margin-top: -60px;
+}
+/* navbar css */
+
+.top-nav {
+    width: 97%;
+    border-left: 40px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 60px solid #0c3330;
+    transform: rotate(180deg);
+    overflow: hidden;
+
+
+}
+
+.top-nav-2 {
+    width: 100%;
+    border-left: 40px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 60px solid #134d4ccb;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 10px;
+    /* z-index:; */
+    width: 41%;
+}
+
+.text-nav {
+    color: white;
+    position: absolute;
+    top: 15px;
+    text-align: center;
+    left: 30px;
+    width: 36%;
+    overflow: hidden;
+    float: left;
+}
+
+.text-nav span {
+    margin: 0px 20px;
+}
+
+.top-nav-content {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: 212121;
+}
