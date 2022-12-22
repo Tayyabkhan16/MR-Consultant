@@ -14942,7 +14942,10 @@ html.boxed .slider-container {
     line-height: 33px;
     width: 33px;
     font-size: 14.4px;
-    font-size: .9rem
+    font-size: .9rem;
+    position: relative;
+    left: 10px;
+    top: -10px !important;
 }
 
 .social-icons.social-icons-big li a,

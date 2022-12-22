@@ -42,7 +42,7 @@ html body .tabs .nav-tabs .nav-link.active {
     width: 97%;
     border-left: 40px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 60px solid #0c3330;
+    border-bottom: 50px solid #0c3330;
     transform: rotate(180deg);
     overflow: hidden;
 
@@ -53,7 +53,7 @@ html body .tabs .nav-tabs .nav-link.active {
     width: 100%;
     border-left: 40px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 60px solid #134d4ccb;
+    border-bottom: 50px solid #134d4ccb;
     transform: rotate(180deg);
     position: absolute;
     top: 10px;
@@ -64,12 +64,13 @@ html body .tabs .nav-tabs .nav-link.active {
 .text-nav {
     color: white;
     position: absolute;
-    top: 15px;
+    top: 10px;
     text-align: center;
     left: 30px;
     width: 36%;
     overflow: hidden;
     float: left;
+    font-size: 15px;
 }
 
 .text-nav span {
@@ -83,4 +84,28 @@ html body .tabs .nav-tabs .nav-link.active {
     align-items: center;
     font-weight: 600;
     color: 212121;
+    font-size: 15px;
+
+}
+#mr-head-txt h3{
+    background-image: linear-gradient(45deg, #0c3330, #1e7776);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#mr-head-txt2 h3{
+   color: #0c3330 !important;
+}
+#footer-port-22{
+    background-image: linear-gradient(#0c3330,#134c4d) !important;
+}
+.mr-footer-text{
+    color: #fff;
+}
+.port-vr-line{
+    height: 1px;
+    width: 100%;
+    background-color: #36918f;
 }
